@@ -7,6 +7,8 @@ body{
     justify-content: center;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .form{
@@ -20,4 +22,9 @@ body{
 
 .form:hover{
     box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.8);
+}
+
+.cat{
+    width: 200px;
+    height: 200px;
 }
